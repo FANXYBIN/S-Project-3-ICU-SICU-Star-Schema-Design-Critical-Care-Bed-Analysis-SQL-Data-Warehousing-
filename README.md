@@ -17,7 +17,7 @@ The dataset includes three core tables: **bed_type**, **business**, and **bed_fa
 ### 📌 Dimension Table — `bed_type`
 
 <div align="center">
-  <img src="images/star_schema1.png" width="500"/>
+  <img src="images/star_schema1.png" width="400"/>
 </div>
 
 This table describes the type of bed (ICU, SICU, etc.).
@@ -121,7 +121,7 @@ Leadership requested:
 </div>
 
 <div align="center">
-  <img src="images/top10_census_beds1.png" width="400"/>
+  <img src="images/top10_census_beds2.png" width="400"/>
   <p><em>Top 10 hospitals by ICU/SICU census beds.</em></p>
 </div>
 
