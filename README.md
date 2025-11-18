@@ -17,7 +17,7 @@ The dataset includes three core tables: **bed_type**, **business**, and **bed_fa
 ### 📌 Dimension Table — `bed_type`
 
 <div align="center">
-  <img src="images/star_schema1.png" width="700"/>
+  <img src="images/star_schema1.png" width="500"/>
 </div>
 
 This table describes the type of bed (ICU, SICU, etc.).
@@ -48,7 +48,7 @@ This table represents each hospital / business unit and includes some aggregate 
 ### 📌 Fact Table — `bed_fact`
 
 <div align="center">
-  <img src="images/star_schema2.png" width="700"/>
+  <img src="images/star_schema2.png" width="500"/>
 </div>
 
 This is the **central fact table** that stores ICU/SICU bed metrics at the hospital–bed type level.
@@ -83,11 +83,11 @@ The final schema contains:
 All dimensions join to the fact table via PK → FK relationships.
 
 <div align="center">
-  <img src="images/star_schema3.png" width="700"/>
+  <img src="images/star_schema3.png" width="400"/>
 </div>
 
 <div align="center">
-  <img src="images/star_schema3.png" width="700"/>
+  <img src="images/star_schema3.png" width="400"/>
   <p><em>Star Schema for ICU/SICU resource modeling.</em></p>
 </div>
 
@@ -105,7 +105,7 @@ Leadership requested:
 </div>
 
 <div align="center">
-  <img src="images/top10_license_beds2.png" width="500"/>
+  <img src="images/top10_license_beds2.png" width="400"/>
   <p><em>Top 10 hospitals by ICU/SICU licensed beds.</em></p>
 </div>
 
@@ -121,7 +121,7 @@ Leadership requested:
 </div>
 
 <div align="center">
-  <img src="images/top10_census_beds1.png" width="500"/>
+  <img src="images/top10_census_beds1.png" width="400"/>
   <p><em>Top 10 hospitals by ICU/SICU census beds.</em></p>
 </div>
 
@@ -137,7 +137,7 @@ Leadership requested:
 </div>
 
 <div align="center">
-  <img src="images/top10_staffed_beds2.png" width="500"/>
+  <img src="images/top10_staffed_beds2.png" width="400"/>
   <p><em>Top 10 hospitals by ICU/SICU staffed beds.</em></p>
 </div>
 
@@ -157,7 +157,7 @@ Leadership asked for deeper review of facilities containing **both** ICU and SIC
 </div>
 
 <div align="center">
-  <img src="images/both_license2.png" width="500"/>
+  <img src="images/both_license2.png" width="400"/>
 </div>
 
 ### ✔ Census Beds (ICU + SICU)
@@ -166,7 +166,7 @@ Leadership asked for deeper review of facilities containing **both** ICU and SIC
 </div>
 
 <div align="center">
-  <img src="images/both_census2.png" width="500"/>
+  <img src="images/both_census2.png" width="400"/>
 </div>
 
 ### ✔ Staffed Beds (ICU + SICU)
@@ -175,7 +175,7 @@ Leadership asked for deeper review of facilities containing **both** ICU and SIC
 </div>
 
 <div align="center">
-  <img src="images/both_staffed2.png" width="500"/>
+  <img src="images/both_staffed2.png" width="400"/>
 </div>
 
 ---
